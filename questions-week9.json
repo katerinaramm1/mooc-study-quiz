@@ -1,0 +1,632 @@
+[
+  {
+    "id": "nft9-001",
+    "level": "easy",
+    "topic": "Token standards",
+    "page": 6,
+    "question": "What does it mean for a token to be fungible?",
+    "options": [
+      "Every unit has a different identity",
+      "Units of the same type are interchangeable",
+      "It must represent a physical object",
+      "It cannot be transferred"
+    ],
+    "answer": 1,
+    "explanation": "Fungible units of the same type are interchangeable; unlike NFTs, individual units are not differentiated."
+  },
+  {
+    "id": "nft9-002",
+    "level": "easy",
+    "topic": "Token standards",
+    "page": 7,
+    "question": "Which Ethereum standard is most widely used for unique NFTs?",
+    "options": [
+      "ERC-20",
+      "ERC-721",
+      "ERC-1155 only",
+      "ERC-6551 only"
+    ],
+    "answer": 1,
+    "explanation": "ERC-721 is the widely used non-fungible token standard for individually identifiable tokens."
+  },
+  {
+    "id": "nft9-003",
+    "level": "easy",
+    "topic": "Token standards",
+    "page": 7,
+    "question": "Which standard primarily covers fungible Ethereum tokens?",
+    "options": [
+      "ERC-721",
+      "ERC-6551",
+      "ERC-20",
+      "ERC-1155"
+    ],
+    "answer": 2,
+    "explanation": "ERC-20 is the widely used standard for fungible tokens such as cryptocurrencies and utility tokens."
+  },
+  {
+    "id": "nft9-004",
+    "level": "easy",
+    "topic": "Token standards",
+    "page": 7,
+    "question": "What is the main purpose of ERC-1155?",
+    "options": [
+      "A single contract can manage several token types",
+      "Every token receives its own blockchain",
+      "It stores only photographs",
+      "It gives NFTs legal property deeds"
+    ],
+    "answer": 0,
+    "explanation": "ERC-1155 enables a contract to manage fungible, non-fungible and semi-fungible token types."
+  },
+  {
+    "id": "nft9-005",
+    "level": "easy",
+    "topic": "Token standards",
+    "page": 7,
+    "question": "What additional feature does ERC-6551 introduce?",
+    "options": [
+      "Fixed prices for artworks",
+      "An NFT-controlled smart contract wallet",
+      "Automatic royalty payments on all chains",
+      "Free transaction fees"
+    ],
+    "answer": 1,
+    "explanation": "ERC-6551 enables token-bound accounts, allowing NFTs to control smart-contract wallets."
+  },
+  {
+    "id": "nft9-006",
+    "level": "easy",
+    "topic": "NFT anatomy",
+    "page": 14,
+    "question": "Where is the NFT image usually stored, according to the slides?",
+    "options": [
+      "Always directly inside the blockchain",
+      "Usually off-chain, referenced through a URI",
+      "Inside the owner’s private key",
+      "Only on a marketplace website"
+    ],
+    "answer": 1,
+    "explanation": "Most NFTs point to external metadata and image storage because storing the image directly on-chain is expensive."
+  },
+  {
+    "id": "nft9-007",
+    "level": "easy",
+    "topic": "NFT anatomy",
+    "page": 17,
+    "question": "What do you obtain by copying the JPEG of an NFT?",
+    "options": [
+      "Ownership of the token",
+      "The private key controlling the token",
+      "A copy of the image, not ownership of the token",
+      "The right to transfer the NFT"
+    ],
+    "answer": 2,
+    "explanation": "The slide distinguishes a copy of the picture from control of the on-chain token."
+  },
+  {
+    "id": "nft9-008",
+    "level": "easy",
+    "topic": "NFT anatomy",
+    "page": 15,
+    "question": "Which two systems are described as decentralized off-chain storage options?",
+    "options": [
+      "IPFS and Arweave",
+      "HTTP and email",
+      "ERC-20 and ERC-721",
+      "OpenSea and Blur"
+    ],
+    "answer": 0,
+    "explanation": "The course presents IPFS and Arweave as decentralized storage alternatives to a centralized server."
+  },
+  {
+    "id": "nft9-009",
+    "level": "easy",
+    "topic": "NFT anatomy",
+    "page": 16,
+    "question": "What is meant by a natively on-chain NFT?",
+    "options": [
+      "Only its owner address is on-chain",
+      "Both metadata and actual asset are saved on-chain",
+      "Its image is stored in a cloud drive",
+      "It can be viewed only using a hardware wallet"
+    ],
+    "answer": 1,
+    "explanation": "Natively on-chain means the associated asset and metadata are stored on the blockchain."
+  },
+  {
+    "id": "nft9-010",
+    "level": "easy",
+    "topic": "PFP and identity",
+    "page": 33,
+    "question": "How many CryptoPunks are in the original collection?",
+    "options": [
+      "1,000",
+      "5,000",
+      "10,000",
+      "100,000"
+    ],
+    "answer": 2,
+    "explanation": "CryptoPunks were launched as a collection of 10,000 distinct 24×24 pixel characters."
+  },
+  {
+    "id": "nft9-011",
+    "level": "easy",
+    "topic": "PFP and identity",
+    "page": 33,
+    "question": "In which year did CryptoPunks launch?",
+    "options": [
+      "2012",
+      "2017",
+      "2021",
+      "2023"
+    ],
+    "answer": 1,
+    "explanation": "CryptoPunks launched on Ethereum in June 2017."
+  },
+  {
+    "id": "nft9-012",
+    "level": "easy",
+    "topic": "PFP and identity",
+    "page": 36,
+    "question": "Which organization created Bored Ape Yacht Club?",
+    "options": [
+      "Larva Labs",
+      "Yuga Labs",
+      "Ethereum Foundation",
+      "Metaplex"
+    ],
+    "answer": 1,
+    "explanation": "The slides identify Yuga Labs as the creator of the BAYC collection."
+  },
+  {
+    "id": "nft9-013",
+    "level": "easy",
+    "topic": "PFP and identity",
+    "page": 32,
+    "question": "Which of these is a role of PFP projects mentioned in the course?",
+    "options": [
+      "Personal identity and community belonging",
+      "Eliminating transaction fees",
+      "Replacing private keys",
+      "Providing guaranteed financial returns"
+    ],
+    "answer": 0,
+    "explanation": "The slides connect PFPs with personal identity, community belonging, and branding/recall."
+  },
+  {
+    "id": "nft9-014",
+    "level": "easy",
+    "topic": "Metaverse",
+    "page": 41,
+    "question": "Which is listed as a defining characteristic of the metaverse?",
+    "options": [
+      "Persistence of shared experiences",
+      "A single mandatory VR headset",
+      "All experiences must be immersive",
+      "Only gaming platforms qualify"
+    ],
+    "answer": 0,
+    "explanation": "The slides highlight universal impact, persistence and adaptability, rather than requiring one specific device or experience."
+  },
+  {
+    "id": "nft9-015",
+    "level": "easy",
+    "topic": "Metaverse",
+    "page": 42,
+    "question": "What does MUD stand for in the course’s virtual-world history?",
+    "options": [
+      "Multi-User Dungeon",
+      "Managed Utility Database",
+      "Meta User Domain",
+      "Multichain User Directory"
+    ],
+    "answer": 0,
+    "explanation": "MUDs are early text-based multiplayer role-playing environments."
+  },
+  {
+    "id": "nft9-016",
+    "level": "intermediate",
+    "topic": "Token standards",
+    "page": 8,
+    "question": "A game needs one contract for interchangeable coins and distinct collectible items. Which standard best matches this requirement?",
+    "options": [
+      "ERC-20",
+      "ERC-721",
+      "ERC-1155",
+      "ERC-6551"
+    ],
+    "answer": 2,
+    "explanation": "ERC-1155 can manage multiple fungible and non-fungible token types under one contract."
+  },
+  {
+    "id": "nft9-017",
+    "level": "intermediate",
+    "topic": "Token standards",
+    "page": 8,
+    "question": "A project wants an existing NFT to hold other assets through its own account. Which standard is relevant?",
+    "options": [
+      "ERC-20",
+      "ERC-721 alone",
+      "ERC-6551",
+      "Bitcoin Ordinals"
+    ],
+    "answer": 2,
+    "explanation": "ERC-6551 provides token-bound accounts and is described as compatible with existing ERC-721 tokens."
+  },
+  {
+    "id": "nft9-018",
+    "level": "intermediate",
+    "topic": "NFT anatomy",
+    "page": 14,
+    "question": "What role does the token URI typically play?",
+    "options": [
+      "It stores the owner’s recovery phrase",
+      "It points to a resource such as NFT metadata",
+      "It ensures the image is stored on-chain",
+      "It permanently guarantees copyright ownership"
+    ],
+    "answer": 1,
+    "explanation": "A URI identifies a resource, often metadata that describes attributes and links to the media."
+  },
+  {
+    "id": "nft9-019",
+    "level": "intermediate",
+    "topic": "NFT anatomy",
+    "page": 15,
+    "question": "How does Arweave’s storage model differ from IPFS as presented in the slides?",
+    "options": [
+      "Arweave uses an upfront-payment approach intended to fund long-term storage",
+      "Arweave requires each NFT to use ERC-6551",
+      "Arweave stores only wallets rather than files",
+      "Arweave relies on marketplace auctions"
+    ],
+    "answer": 0,
+    "explanation": "Arweave is presented as using upfront payment for permanent storage; IPFS is described as peer-to-peer hosting and pinning."
+  },
+  {
+    "id": "nft9-020",
+    "level": "intermediate",
+    "topic": "NFT anatomy",
+    "page": 16,
+    "question": "Why does the course describe natively on-chain storage as more feasible for code-defined generative art?",
+    "options": [
+      "All image formats cost the same to store",
+      "The asset can be represented more compactly in code",
+      "Generative art has no metadata",
+      "It does not require a blockchain transaction"
+    ],
+    "answer": 1,
+    "explanation": "Code-described assets can be economically feasible to store on-chain, unlike large photos or videos."
+  },
+  {
+    "id": "nft9-021",
+    "level": "intermediate",
+    "topic": "NFT anatomy",
+    "page": 21,
+    "question": "Why is transferring an NFT representing a house not the same as transferring legal possession of that house?",
+    "options": [
+      "An NFT cannot represent a house",
+      "Physical property still depends on legal registries and enforcement",
+      "Blockchains cannot transfer tokens",
+      "NFT transfers always fail for real estate"
+    ],
+    "answer": 1,
+    "explanation": "The course explains that transferring the token does not by itself replace registries, courts, or physical enforcement."
+  },
+  {
+    "id": "nft9-022",
+    "level": "intermediate",
+    "topic": "NFT anatomy",
+    "page": 26,
+    "question": "What distinguishes minting from secondary NFT trading?",
+    "options": [
+      "Minting creates an NFT on-chain; secondary trading resells an existing NFT",
+      "Minting is only a resale; trading creates the token",
+      "Minting stores private keys; trading deletes them",
+      "They always mean the same event"
+    ],
+    "answer": 0,
+    "explanation": "Minting creates the NFT; secondary trading involves resale after it already exists."
+  },
+  {
+    "id": "nft9-023",
+    "level": "intermediate",
+    "topic": "PFP and identity",
+    "page": 31,
+    "question": "How do NFT avatars differ from non-NFT avatars in the slides?",
+    "options": [
+      "NFT avatars are always more visually detailed",
+      "NFT avatars have user-owned underlying blockchain tokens",
+      "Non-NFT avatars are impossible to copy",
+      "NFT avatars cannot be used as profile pictures"
+    ],
+    "answer": 1,
+    "explanation": "NFT avatars are associated with blockchain tokens that users own; ordinary platform avatars do not have this ownership structure."
+  },
+  {
+    "id": "nft9-024",
+    "level": "intermediate",
+    "topic": "PFP and identity",
+    "page": 35,
+    "question": "Which combination best describes the three roles of CryptoPunks presented in the slides?",
+    "options": [
+      "Governance, stablecoins, and staking",
+      "Art, collectibles, and PFP/community identity",
+      "Tickets, real estate, and payment rails",
+      "Storage, scaling, and privacy"
+    ],
+    "answer": 1,
+    "explanation": "The slides place CryptoPunks at the intersection of generative art, scarce collectibles and community identity."
+  },
+  {
+    "id": "nft9-025",
+    "level": "intermediate",
+    "topic": "PFP and identity",
+    "page": 37,
+    "question": "Which BAYC benefit depends on organizers continuing to provide access or support?",
+    "options": [
+      "The token’s recorded identity",
+      "An invitation to an exclusive real-world event",
+      "The token’s existence on the chain",
+      "The publicly visible token identifier"
+    ],
+    "answer": 1,
+    "explanation": "Access to selected events is a service or benefit supplied by organizers, unlike the token identifier recorded on-chain."
+  },
+  {
+    "id": "nft9-026",
+    "level": "intermediate",
+    "topic": "Metaverse",
+    "page": 43,
+    "question": "Which limitation of early NFT-enabled virtual worlds does the course emphasize?",
+    "options": [
+      "They had no marketplaces at all",
+      "They were largely siloed and lacked interoperability",
+      "They contained no digital assets",
+      "They used no user-generated content"
+    ],
+    "answer": 1,
+    "explanation": "The slides highlight that many early worlds remained siloed, largely non-interoperable and with limited reach."
+  },
+  {
+    "id": "nft9-027",
+    "level": "intermediate",
+    "topic": "Metaverse",
+    "page": 41,
+    "question": "Why is the metaverse described as difficult to define?",
+    "options": [
+      "It is an aspirational, evolving shift not captured by one application",
+      "Its protocols have all been standardized",
+      "It refers only to virtual-reality games",
+      "It was formally banned"
+    ],
+    "answer": 0,
+    "explanation": "The lecture treats the metaverse as a developing technological and social shift rather than a single product."
+  },
+  {
+    "id": "nft9-028",
+    "level": "intermediate",
+    "topic": "Metaverse",
+    "page": 44,
+    "question": "What happened when X and Instagram introduced NFT display features, according to the slides?",
+    "options": [
+      "Both created permanent interoperable virtual economies",
+      "Both later removed these limited ownership/verification features",
+      "Both replaced their social networks with NFT markets",
+      "Both transferred all profiles to Ethereum"
+    ],
+    "answer": 1,
+    "explanation": "The slide argues that NFT verification alone did not produce a deeper social or cultural shift; both features were withdrawn."
+  },
+  {
+    "id": "nft9-029",
+    "level": "intermediate",
+    "topic": "NFT anatomy",
+    "page": 22,
+    "question": "Which adoption sequence best matches the course’s thesis?",
+    "options": [
+      "Physical property first, intangible assets last",
+      "Intangibles and digital uses before physical-world assets",
+      "All asset types become on-chain simultaneously",
+      "Government registries never play any role"
+    ],
+    "answer": 1,
+    "explanation": "The slides expect natively digital/intangible assets to lead because physical assets need regulatory and enforcement bridges."
+  },
+  {
+    "id": "nft9-030",
+    "level": "intermediate",
+    "topic": "Token standards",
+    "page": 6,
+    "question": "Which statement correctly compares ETH with CryptoPunk #6529?",
+    "options": [
+      "ETH units are uniquely numbered like CryptoPunks",
+      "CryptoPunk #6529 is unique while one ETH unit is interchangeable with another",
+      "CryptoPunks are fungible but ETH is non-fungible",
+      "Neither can be transferred"
+    ],
+    "answer": 1,
+    "explanation": "ETH is fungible; CryptoPunk #6529 is an individually identified non-fungible token."
+  },
+  {
+    "id": "nft9-031",
+    "level": "difficult",
+    "topic": "NFT anatomy",
+    "page": 14,
+    "question": "A token points to metadata hosted on one centralized server. The server disappears, but Ethereum remains operational. What is the most defensible outcome?",
+    "options": [
+      "The on-chain token automatically disappears",
+      "The token may continue to exist while its metadata/media become inaccessible",
+      "The private key automatically changes",
+      "The NFT becomes a fungible ERC-20 token"
+    ],
+    "answer": 1,
+    "explanation": "The on-chain token and off-chain media are distinct; failure of the off-chain host can break access to media without deleting the token."
+  },
+  {
+    "id": "nft9-032",
+    "level": "difficult",
+    "topic": "NFT anatomy",
+    "page": 17,
+    "question": "A collector saves the image of a rare CryptoPunk and claims that this is equivalent to owning the collectible. What is the central mistake?",
+    "options": [
+      "Confusing possession of an image copy with control of its blockchain token",
+      "Assuming pixel art cannot be displayed",
+      "Confusing Ethereum with Bitcoin mining",
+      "Believing the NFT file is always encrypted"
+    ],
+    "answer": 0,
+    "explanation": "The course distinguishes replicable media from the scarce, transferable on-chain token controlled by a private key."
+  },
+  {
+    "id": "nft9-033",
+    "level": "difficult",
+    "topic": "Token standards",
+    "page": 8,
+    "question": "An app already issues ERC-721 avatars and wants each avatar to act as a wallet holding equipment NFTs. Which addition best supports this?",
+    "options": [
+      "ERC-6551 token-bound accounts",
+      "Replacing all avatars with ERC-20 tokens",
+      "Moving metadata to a centralized image server",
+      "Increasing the avatar image resolution"
+    ],
+    "answer": 0,
+    "explanation": "Token-bound accounts make existing ERC-721 NFTs capable of controlling smart-contract wallets and holding assets."
+  },
+  {
+    "id": "nft9-034",
+    "level": "difficult",
+    "topic": "Token standards",
+    "page": 8,
+    "question": "Which design most directly reduces the need for multiple approvals and transfers when handling many different in-game token types?",
+    "options": [
+      "Separate ERC-721 contracts for every unit",
+      "ERC-1155 with batch transfers",
+      "Only ERC-20 and a JPEG database",
+      "Disabling token transfers"
+    ],
+    "answer": 1,
+    "explanation": "The standards comparison highlights ERC-1155 batch operations as a way to reduce transaction overhead for mixed token types."
+  },
+  {
+    "id": "nft9-035",
+    "level": "difficult",
+    "topic": "NFT anatomy",
+    "page": 21,
+    "question": "Which statement best captures the lecture’s boundary between blockchain and physical property?",
+    "options": [
+      "On-chain transactions always enforce off-chain possession",
+      "Code can transfer a token, but courts and registries may still determine rights over physical property",
+      "The legal system is unnecessary whenever an NFT exists",
+      "A token transfer physically moves the object automatically"
+    ],
+    "answer": 1,
+    "explanation": "For physical-world assets, on-chain settlement does not independently compel legal recognition or handover of property."
+  },
+  {
+    "id": "nft9-036",
+    "level": "difficult",
+    "topic": "PFP and identity",
+    "page": 35,
+    "question": "Why might the value of a PFP collection not be fully explained by image quality alone?",
+    "options": [
+      "Value may also reflect collectible scarcity, identity and community belonging",
+      "NFT collections have no rarity characteristics",
+      "All PFP holders receive a guaranteed dividend",
+      "Each JPEG must be stored on-chain"
+    ],
+    "answer": 0,
+    "explanation": "The slides present CryptoPunks as art, collectibles and PFP/community objects simultaneously."
+  },
+  {
+    "id": "nft9-037",
+    "level": "difficult",
+    "topic": "PFP and identity",
+    "page": 37,
+    "question": "Which claim about BAYC utility is best supported by the lecture?",
+    "options": [
+      "Every reward is guaranteed to continue indefinitely",
+      "Utility may include token-gated communities, events and occasional non-guaranteed rewards",
+      "Ownership always conveys full copyright in all artwork",
+      "NFT ownership automatically gives a banking license"
+    ],
+    "answer": 1,
+    "explanation": "BAYC utility examples include communities, events, limited commercial rights and occasional airdrops, explicitly not guaranteed."
+  },
+  {
+    "id": "nft9-038",
+    "level": "difficult",
+    "topic": "Metaverse",
+    "page": 44,
+    "question": "Why does the lecture distinguish NFTs as a technical feature from a broader metaverse transformation?",
+    "options": [
+      "Adding provable ownership alone does not necessarily create new social and economic dynamics",
+      "NFT technology automatically ensures universal adoption",
+      "All NFT integrations require virtual reality",
+      "Social transformation is independent of digital ownership in the lecture’s framework"
+    ],
+    "answer": 0,
+    "explanation": "The lecture separates the ownership-enabling technology from a deeper societal shift; the former alone need not produce the latter."
+  },
+  {
+    "id": "nft9-039",
+    "level": "difficult",
+    "topic": "Metaverse",
+    "page": 43,
+    "question": "What would most directly address a weakness of early NFT metaverse worlds identified in the material?",
+    "options": [
+      "A framework allowing assets to work across different virtual worlds",
+      "Removing all marketplaces",
+      "Restricting creators to one platform",
+      "Keeping all worlds isolated"
+    ],
+    "answer": 0,
+    "explanation": "The lecture flags siloing and lack of interoperability as major barriers in early implementations."
+  },
+  {
+    "id": "nft9-040",
+    "level": "difficult",
+    "topic": "NFT anatomy",
+    "page": 20,
+    "question": "What is the safest interpretation of the lecture’s estimate that only about 1 in 100,000 intangibles are on-chain?",
+    "options": [
+      "A cited estimate of current adoption, not a guarantee about future markets",
+      "A proven immutable law of economics",
+      "An exact count of every intangible asset worldwide",
+      "Proof that all intangible assets must be tokenized"
+    ],
+    "answer": 0,
+    "explanation": "The slide labels its market figures as estimates and uses them to illustrate the small current on-chain share, not a certain forecast."
+  },
+  {
+    "id": "nft9-041",
+    "level": "difficult",
+    "topic": "Metaverse",
+    "page": 41,
+    "question": "Which example best reflects the lecture’s adaptable view of metaverse experiences?",
+    "options": [
+      "Persistent shared experiences that may be immersive or non-immersive",
+      "Only experiences requiring fully immersive headsets",
+      "Any standalone offline game with no shared state",
+      "Only the purchase of virtual real estate"
+    ],
+    "answer": 0,
+    "explanation": "The lecture emphasizes persistent and adaptable experiences and explicitly does not require every experience to be fully immersive."
+  },
+  {
+    "id": "nft9-042",
+    "level": "difficult",
+    "topic": "Token standards",
+    "page": 7,
+    "question": "What is a token-bound account in the ERC-6551 framing?",
+    "options": [
+      "A smart-contract account controlled by an NFT",
+      "A legal bank account registered to an exchange",
+      "A centralized wallet owned by an image host",
+      "A special name for the ERC-20 total supply"
+    ],
+    "answer": 0,
+    "explanation": "ERC-6551 makes an NFT capable of controlling a smart-contract account that can hold assets and interact with applications."
+  }
+]
