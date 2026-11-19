@@ -1,7 +1,7 @@
 /* Public frontend configuration ONLY. Never put a secret/service_role key here. */
 window.QUIZ_CONFIG = {
-  supabaseUrl: '', // e.g. https://YOUR_PROJECT.supabase.co
-  supabasePublishableKey: '', // publishable / anon public key, NOT secret key
+  supabaseUrl: 'https://kmexeywkjjijvkoufoey.supabase.co/rest/v1/', // e.g. https://YOUR_PROJECT.supabase.co
+  supabasePublishableKey: 'sb_publishable_X8cWsFz7Mcg9L6xNJg9f_A_cB5iPZMY', // publishable / anon public key, NOT secret key
   weeks: [
     { number: 9, title: 'NFTs and Digital Ownership', file: 'questions-week9.json', quizId: 'nfts-week9-fall2026', enabled: true },
     { number: 10, title: 'Regulation and Policy of Digital Assets', file: 'questions-week10.json', quizId: 'week10-fall2026', enabled: false },
